@@ -1,0 +1,21 @@
+neurodiversity-agent/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── EyeTracker.js
+│   │   │   ├── VoiceAnalyzer.js
+│   │   │   └── TutorUI.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── .env
+│   ├── package.json
+│   └── Dockerfile
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── model/
+│       └── pretrained/
+├── docker-compose.yml
+└── README.md
